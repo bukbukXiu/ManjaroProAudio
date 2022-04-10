@@ -4,7 +4,7 @@ Following this guide will hopefully allow you to get the best possible performan
 
 ## Fundamentals
 
-To get started, and aftering installing Manjaro, you could try just steps 3 and 5. If you need to use windows plugins on Linux also follow step 11. Based on your pro audio workflows, hardware etc, your mileage may vary. If you still have audio issues, try following the full guide...
+To get started after installing Manjaro, you could try just steps 3 and 5. If you need to use windows plugins on Linux also follow step 11. Based on your pro audio workflows, hardware etc, your mileage may vary. If you still have audio issues, try following the full guide...
 
 ## Full In-depth guide
 
