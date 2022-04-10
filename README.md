@@ -4,7 +4,7 @@ Following this guide will hopefully allow you to get the best possible performan
 
 ## Fundamentals
 
-To get started after installing Manjaro, you could try just steps 3 and 5 below. If you need to use windows plugins on Linux also follow step 11 (easy: wine-staging, more advanced but potentially more performance: wine-tkg). Based on your individual pro audio needs and workflows, hardware specifications and more, your mileage may vary. If you are still having audio performance issues, try following the full guide...
+To get started after installing Manjaro, you could try just steps 3 and 5 below. If you need to use windows plugins on Linux also follow step 11 (easy: wine-staging, more advanced but potentially more performance: wine-tkg). Based on your individual pro audio needs, workflows, hardware specifications and more, your mileage may vary. If you are still having audio performance issues, try following the full guide...
 
 ## Full In-depth Guide
 
