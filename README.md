@@ -2,6 +2,12 @@
 
 Following this guide will hopefully allow you to get the best possible performance on Linux for professional audio needs. Even though these steps are well-tested, it is wise to research what each step accomplishes and why (the search engine is your friend :P ).
 
+## Fundamentals
+
+To get started, and aftering installing Manjaro, you could try just steps 3 and 5. If you need to use windows plugins on Linux also follow step 11. Based on your pro audio workflows, hardware etc, your mileage may vary. If you still have audio issues, try following the full guide...
+
+## Full In-depth guide
+
 1) Install Manjaro KDE
 
 2) rtcqs (formerly known as realtimeconfigquickscan)
