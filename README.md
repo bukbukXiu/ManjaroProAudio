@@ -8,7 +8,7 @@ To get started after installing Manjaro, you could try just steps 3 and 5 below.
 
 ## Full In-depth Guide
 
-1) Install Manjaro KDE
+1) Install Manjaro KDE (or other favorite Arch-based distro)
 
 2) rtcqs (formerly known as realtimeconfigquickscan)
     ```shell
