@@ -119,6 +119,8 @@ To get started after installing Manjaro, you could try just steps 3 and 5 below.
 
     Perhaps start with vanilla wine-staging and see how you fare in terms of performance. If your workflows rely heavily on VSTi like Kontakt, you may find better performance with wine-tkg (fsync enabled). 
 
+    #### Wine-staging
+
     ```shell
     yay -S wine-staging
     ```
@@ -130,11 +132,15 @@ To get started after installing Manjaro, you could try just steps 3 and 5 below.
     sudo DOWNGRADE_FROM_ALA=1 downgrade wine-staging
     ```
     
-   Check https://github.com/robbert-vdh/yabridge#tested-with for up-to-date info.
+    Check https://github.com/robbert-vdh/yabridge#tested-with for up-to-date info.
     
-   OR...for the more adventurous:
-    
-   either download wine-tkg from https://github.com/Frogging-Family/wine-tkg-git/releases or follow the instructions to git clone and install latest version: https://github.com/Frogging-Family/wine-tkg-git/tree/master/wine-tkg-git#quick-how-to-
+    OR...for the more adventurous:
+   
+    #### Wine-tkg
+   
+    Either download wine-tkg from https://github.com/Frogging-Family/wine-tkg-git/releases or follow the instructions to git clone and install latest version: https://github.com/Frogging-Family/wine-tkg-git/tree/master/wine-tkg-git#quick-how-to-
+   
+    NOTE: In order to take advantage of fsync, add `export WINEFSYNC=1` to your shell's enviroment profile. See https://github.com/robbert-vdh/yabridge#environment-configuration for more information. 
        
 12) Install yabridge
 
