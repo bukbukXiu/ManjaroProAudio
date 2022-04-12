@@ -117,6 +117,8 @@ To get started after installing Manjaro, you could try just steps 3 and 5 below.
 
 11) Wine-staging or Wine-tkg
 
+    Perhaps start with vanilla wine-staging and see how you fare in terms of performance. If your workflows rely heavily on VSTi like Kontakt, you may find better performance with wine-tkg (fsync enabled). 
+
     ```shell
     yay -S wine-staging
     ```
