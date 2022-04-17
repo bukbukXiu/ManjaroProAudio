@@ -21,7 +21,7 @@ To get started after installing Manjaro, you could try just steps 3 and 5 below.
     ```shell
     yay -S realtime-privileges
     ```
-    Add user to "realtime" group and "audio" group (to satisfy realtimeconfigquickscan)
+    Add user to "realtime" group and "audio" group (to satisfy `rtcqs`)
     ```shell
     sudo usermod -a -G realtime,audio $USER
     ```
