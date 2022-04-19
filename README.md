@@ -12,11 +12,11 @@ Manjaro includes an extremely convenient way of switching to Pipewire (see https
 ```shell
 yay -S manjaro-pipewire pipewire-jack
 ```
-Be sure to say 'yes' to removing conflicting packages. It would also be wise to install a graph manager like qpwgraph to be able to make connections between apps and devices:
+Be sure to say 'yes' to removing conflicting packages. Reboot! It would also be wise to install a graph manager like qpwgraph to be able to make connections between apps and devices:
 ```shell
 yay -S qpwgraph
 ```
-Reboot! That should give you everything you need to get up and running. I consider Pipewire ready for primetime at this point. In the unlikely event you need to switch back:
+That should give you everything you need to get up and running. I consider Pipewire ready for primetime at this point. In the unlikely event you need to switch back:
 ```shell
 yay -S manjaro-pulse
 ```
