@@ -6,9 +6,38 @@ Following this guide will hopefully allow you to get the best possible performan
 
 To get started after installing Manjaro, you could try just steps 3 and 5 below. If you need to use windows plugins on Linux also follow step 11 (easy: wine-staging, more advanced but potentially more performance: wine-tkg). Based on your individual pro audio needs, workflows, hardware specifications and more, your mileage may vary. If you are still having audio performance issues, try following the full guide...
 
+### Pipewire?
+
+Manjaro includes an extremely convenient way of switching to Pipewire (see https://pipewire.org/ for more details). You may choose to wait until it ships as default in future releases although it is just as easy to roll things back. To switch to Pipewire run:
+```shell
+yay -S manjaro-pipewire pipewire-jack
+```
+Be sure to say 'yes' to removing conflicting packages. It would also be wise to install a graph manager like qpwgraph to be able to make connections between apps and devices:
+```shell
+yay -S qpwgraph
+```
+That should give you everything you need to get up and running. I consider Pipewire ready for primetime at this point. In the unlikely event you need to switch back:
+```shell
+yay -S manjaro-pulse
+```
+Again, say 'yes' to removing conflicts.
+
 ## Full In-depth Guide
 
 1) Install Manjaro KDE (or other favorite Arch-based distro)
+
+    _Optional:_
+    Install `yay`:
+    ```shell
+    pacman -S yay
+    ```
+    Or, build from source:
+    ```shell
+    pacman -S --needed git base-devel
+    git clone https://aur.archlinux.org/yay.git
+    cd yay
+    makepkg -si
+    ```
 
 2) rtcqs (formerly known as realtimeconfigquickscan)
     ```shell
@@ -83,7 +112,7 @@ To get started after installing Manjaro, you could try just steps 3 and 5 below.
     reboot
     ```
 
-9) Jack2 + Jack D-Bus
+9) Jack2 + Jack D-Bus (__skip this step if you switched to Pipewire__)
     ```shell
     yay -S qjackctl jack2-dbus
     ```
