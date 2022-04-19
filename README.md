@@ -101,7 +101,7 @@ Again, say 'yes' to removing conflicts.
 
 7) base-devel (as necessary)
     ```shell
-    sudo pacman -S base-devel
+    sudo pacman -S --needed base-devel
     ```
 
 8) install udev-rtirq
