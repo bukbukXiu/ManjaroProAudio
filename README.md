@@ -16,7 +16,34 @@ Be sure to say 'yes' to removing conflicting packages. Reboot! It would also be 
 ```shell
 yay -S qpwgraph
 ```
-That should give you everything you need to get up and running. I consider Pipewire ready for primetime at this point. In the unlikely event you need to switch back:
+That should give you everything you need to get up and running. I consider Pipewire ready for primetime at this point. 
+
+#### Pipewire configuration
+
+If you want to change the default samplerate, buffer size etc, you need to copy `/usr/share/pipewire/pipewire.conf` over to `/etc/pipewire/` and uncomment a few lines:
+
+![2022-04-19_09-19](https://user-images.githubusercontent.com/90937680/163958025-f25a0f05-bc53-4fca-8f7f-28a94308407b.png)
+
+To temporarily change samplerate/buffer size do not use PIPEWIRE_LATENCY environment variable. Instead, use:
+```shell
+pw-metadata -n settings 0 clock.force-rate <samplerate>
+```
+and
+```shell
+pw-metadata -n settings 0 clock.force-quantum <buffer-size>
+```
+To return to default values:
+```shell
+pw-metadata -n settings 0 clock.force-rate 0
+```
+and
+```shell
+pw-metadata -n settings 0 clock.force-quantum 0
+```
+
+#### Back to ALSA/Pulse?
+
+In the unlikely event you need to switch back:
 ```shell
 yay -S manjaro-pulse
 ```
