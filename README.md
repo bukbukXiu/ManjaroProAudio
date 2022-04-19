@@ -16,11 +16,11 @@ Be sure to say 'yes' to removing conflicting packages. It would also be wise to 
 ```shell
 yay -S qpwgraph
 ```
-That should give you everything you need to get up and running. I consider Pipewire ready for primetime at this point. In the unlikely event you need to switch back:
+Reboot! That should give you everything you need to get up and running. I consider Pipewire ready for primetime at this point. In the unlikely event you need to switch back:
 ```shell
 yay -S manjaro-pulse
 ```
-Again, say 'yes' to removing conflicts.
+Again, say 'yes' to removing conflicts (and then reboot).
 
 ## Full In-depth Guide
 
