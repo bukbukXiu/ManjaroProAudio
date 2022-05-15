@@ -71,7 +71,7 @@ Again, say 'yes' to removing conflicts (and then reboot).
 2) rtcqs (formerly known as realtimeconfigquickscan)
     ```shell
     git clone https://codeberg.org/rtcqs/rtcqs.git
-    cd rtcqs
+    cd rtcqs/src/rtcqs/
     ./rtcqs.py
     ```
 
