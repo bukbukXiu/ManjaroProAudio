@@ -47,6 +47,7 @@ See https://gitlab.freedesktop.org/pipewire/pipewire/-/wikis/Config-PipeWire#set
 
 In the unlikely event you need to switch back:
 ```shell
+yay -Rdd pipewire-pulse 
 yay -S manjaro-pulse
 ```
 Again, say 'yes' to removing conflicts (and then reboot).
