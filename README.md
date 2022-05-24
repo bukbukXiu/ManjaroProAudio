@@ -96,9 +96,9 @@ Again, say 'yes' to removing conflicts (and then reboot).
     ```shell
     sudo update-grub
     ```
-    or if you don't have update-grub installed first run
+    or if you don't have update-grub installed
     ```shell
-    yay -S update-grub
+    sudo grub-mkconfig -o /boot/grub/grub.cfg
     ```
 
 5) Set governor to "performance"
