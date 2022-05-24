@@ -215,6 +215,17 @@ Again, say 'yes' to removing conflicts (and then reboot).
     yay -S yabridge-git yabridgectl-git
     ```
     
+    Note: Depending on your distro, you might have to enable the multilib repo first:
+    
+    ```shell
+    sudo nano /etc/pacman.conf
+    ```
+    and, uncomment these lines
+    ```shell
+    [multilib]
+    Include = /etc/pacman.d/mirrorlist
+    ```
+    
     iii. Configure yabridge according to https://github.com/robbert-vdh/yabridge#readme  
     iv. if using wine-tkg, append "export WINEFSYNC=1" to ~/.bash_profile  
     ```shell
