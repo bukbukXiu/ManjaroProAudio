@@ -96,6 +96,10 @@ Again, say 'yes' to removing conflicts (and then reboot).
     ```shell
     sudo update-grub
     ```
+    or if you don't have update-grub installed first run
+    ```shell
+    yay -S update-grub
+    ```
 
 5) Set governor to "performance"
 
