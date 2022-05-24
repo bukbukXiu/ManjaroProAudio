@@ -228,7 +228,7 @@ Again, say 'yes' to removing conflicts (and then reboot).
     
     
    ### Thanks
-   Robbert van der Helm (of yabridge fame) for pointing out typos/omissions and suggesting alternative methods. JamesPeters (REAPER forums) for suggesting expansion of steps 3, 4 & 5. graves501 for rtcqs info update, audiojunkie for the latest title, Soli Deo Gloria for wine-tkg suggestions, Damien Zammit (of zam-plugins fame) and MikeLupe for discussion of other Linux DAWs including Ardour and Zrythm.
+   Robbert van der Helm (of yabridge fame) for pointing out typos/omissions and suggesting alternative methods. JamesPeters (REAPER forums) for suggesting expansion of steps 3, 4 & 5. graves501 for rtcqs info update, audiojunkie for the latest title, Soli Deo Gloria for wine-tkg suggestions, XoechZ for the grub update line, Damien Zammit (of zam-plugins fame) and MikeLupe for discussion of other Linux DAWs including Ardour and Zrythm.
 
 
 
