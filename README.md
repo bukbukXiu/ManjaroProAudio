@@ -204,7 +204,7 @@ Again, say 'yes' to removing conflicts (and then reboot).
 12) Install yabridge
 
     ```shell
-    yay -S yabridge-bin
+    yay -S yabridge yabridgectl
     ```
     or for latest git:
     ```shell
