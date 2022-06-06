@@ -125,20 +125,21 @@ Again, say 'yes' to removing conflicts (and then reboot).
     systemctl enable --now cpupower.service
     systemctl start cpupower.service
     ```
-
-
+    
 6) swappiness
     ```shell
     sudo nano /etc/sysctl.d/99-sysctl.conf
     ```
     add "vm.swappiness=10"
+    
+7) If you run `rtcqs.py` and it gives you a warning about Spectre/Meltdown Mitigations, you could add `mitigations=off` to GRUB_CMDLINE_LINUX. Warning: disabling these mitigations will make your machine less secure!
 
-7) base-devel (as necessary)
+8) base-devel (as necessary)
     ```shell
     sudo pacman -S --needed base-devel
     ```
 
-8) install udev-rtirq
+9) install udev-rtirq
     ```shell
     git clone https://github.com/jhernberg/udev-rtirq.git
     cd udev-rtirq
@@ -146,7 +147,7 @@ Again, say 'yes' to removing conflicts (and then reboot).
     reboot
     ```
 
-9) Jack2 + Jack D-Bus (__skip this step if you switched to Pipewire__)
+10) Jack2 + Jack D-Bus (__skip this step if you switched to Pipewire__)
     ```shell
     yay -S qjackctl jack2-dbus
     ```
@@ -154,7 +155,7 @@ Again, say 'yes' to removing conflicts (and then reboot).
     ![image](https://user-images.githubusercontent.com/79659262/124497122-51218300-ddb2-11eb-8cb8-4bf873e026cd.png)
 
 
-10) DAW & Plugins
+11) DAW & Plugins
 
     REAPER: 
     http://reaper.fm/download.php or,  
@@ -178,7 +179,7 @@ Again, say 'yes' to removing conflicts (and then reboot).
   * Bertom Denoiser (https://www.bertomaudio.com/denoiser.html)
   * sfizz / sfizz-git (https://sfz.tools/sfizz/)
 
-11) Wine-staging or Wine-tkg
+12) Wine-staging or Wine-tkg
 
     Perhaps start with vanilla wine-staging and see how you fare in terms of performance. If your workflows rely heavily on VSTi like Kontakt, you may find better performance with wine-tkg (fsync enabled). 
 
@@ -205,7 +206,7 @@ Again, say 'yes' to removing conflicts (and then reboot).
    
     NOTE: In order to take advantage of fsync, add `export WINEFSYNC=1` to your shell's enviroment profile. See https://github.com/robbert-vdh/yabridge#environment-configuration for more information. 
        
-12) Install yabridge
+13) Install yabridge
 
     ```shell
     yay -S yabridge yabridgectl
