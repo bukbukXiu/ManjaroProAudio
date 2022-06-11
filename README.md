@@ -160,7 +160,7 @@ Again, say 'yes' to removing conflicts (and then reboot).
     REAPER: 
     http://reaper.fm/download.php or,  
     ```shell
-    yay -S reaper-bin
+    yay -S reaper
     ```
     change RT priority to 40 on audio device page?  
     
