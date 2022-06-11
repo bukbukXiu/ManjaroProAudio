@@ -176,7 +176,7 @@ Again, say 'yes' to removing conflicts (and then reboot).
   * distrho-ports (https://distrho.sourceforge.io/ports.php)
   * dpf-plugins (https://distrho.sourceforge.io/plugins.php)
   * dragonfly-reverb (https://michaelwillis.github.io/dragonfly-reverb/)
-  * Bertom Denoiser (https://www.bertomaudio.com/denoiser.html)
+  * Bertom Denoiser (https://www.bertomaudio.com/denoiser.html) (not in the Arch repos or AUR)
   * sfizz / sfizz-git (https://sfz.tools/sfizz/)
 
 12) Wine-staging or Wine-tkg
