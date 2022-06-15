@@ -81,7 +81,7 @@ cd rtcqs
 ./src/rtcqs/rtcqs.py
 ```
 
-### install realtime-privileges
+### Install realtime-privileges
 
 ```shell
 yay -S realtime-privileges
@@ -95,7 +95,7 @@ sudo usermod -a -G realtime,audio $USER
 
 Log out/in or reboot...
 
-### add "threadirqs" as kernel parameter
+### Add "threadirqs" as kernel parameter
 
 ```shell
 sudo nano /etc/default/grub
@@ -145,7 +145,7 @@ systemctl enable --now cpupower.service
 systemctl start cpupower.service
 ```
     
-### swappiness
+### Swappiness
 
 ```shell
 sudo nano /etc/sysctl.d/99-sysctl.conf
@@ -163,7 +163,7 @@ If you run `rtcqs.py` and it gives you a warning about Spectre/Meltdown Mitigati
 sudo pacman -S --needed base-devel
 ```
 
-### install udev-rtirq
+### Install udev-rtirq
 
 ```shell
 git clone https://github.com/jhernberg/udev-rtirq.git
@@ -195,16 +195,17 @@ change RT priority to 40 on audio device page?
 Also be sure to check out Bitwig Studio, Tracktion Waveform, Ardour, Mixbus, Qtractor, LMMS, Rosegarden, Zrythm etc...
 https://en.wikipedia.org/wiki/List_of_Linux_audio_software#Digital_audio_workstations_(DAWs)
 
-* Native plugins (`yay -S [pkgname]`)
-  * x42-plugins (https://x42-plugins.com/x42/)
-  * airwindows-git (http://www.airwindows.com/)  
-  * lsp-plugins  (https://lsp-plug.in/)
-  * zam-plugins  (http://www.zamaudio.com/?p=976)
-  * distrho-ports (https://distrho.sourceforge.io/ports.php)
-  * dpf-plugins (https://distrho.sourceforge.io/plugins.php)
-  * dragonfly-reverb (https://michaelwillis.github.io/dragonfly-reverb/)
-  * Bertom Denoiser (https://www.bertomaudio.com/denoiser.html) (not in the Arch repos or AUR)
-  * sfizz / sfizz-git (https://sfz.tools/sfizz/)
+#### Native plugins (`yay -S [pkgname]`)
+
+- x42-plugins (https://x42-plugins.com/x42/)
+- airwindows-git (http://www.airwindows.com/)  
+- lsp-plugins  (https://lsp-plug.in/)
+- zam-plugins  (http://www.zamaudio.com/?p=976)
+- distrho-ports (https://distrho.sourceforge.io/ports.php)
+- dpf-plugins (https://distrho.sourceforge.io/plugins.php)
+- dragonfly-reverb (https://michaelwillis.github.io/dragonfly-reverb/)
+- Bertom Denoiser (https://www.bertomaudio.com/denoiser.html) (not in the Arch repos or AUR)
+- sfizz / sfizz-git (https://sfz.tools/sfizz/)
 
 ### Wine-staging or Wine-tkg
 
@@ -260,7 +261,7 @@ Include = /etc/pacman.d/mirrorlist
 
 iii. Configure yabridge according to https://github.com/robbert-vdh/yabridge#readme  
 iv. if using wine-tkg, append "export WINEFSYNC=1" to ~/.bash_profile 
- 
+
 ```shell
 nano ~/.bash_profile
 . ~/.bash_profile
