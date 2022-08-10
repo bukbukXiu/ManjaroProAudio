@@ -205,6 +205,7 @@ https://en.wikipedia.org/wiki/List_of_Linux_audio_software#Digital_audio_worksta
 - dragonfly-reverb (https://michaelwillis.github.io/dragonfly-reverb/)
 - Bertom Denoiser (https://www.bertomaudio.com/denoiser.html) (not in the Arch repos or AUR)
 - sfizz / sfizz-git (https://sfz.tools/sfizz/)
+- Chowdhury DSP (https://chowdsp.com/products.html)
 
 ### Wine-staging or Wine-tkg
 
